@@ -12,9 +12,9 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 @SpringBootApplication(scanBasePackages="com.lessee")
 @EnableAspectJAutoProxy
 @EnableMongoRepositories(basePackages = "com.lessee")
-public class LesseeAppApplication {
+public class LesseeApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LesseeAppApplication.class, args);
+		SpringApplication.run(LesseeApp.class, args);
 	}
 }
